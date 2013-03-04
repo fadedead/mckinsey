@@ -1,0 +1,4 @@
+mckinsey
+========
+
+McKinsey Code Challenge

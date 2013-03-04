@@ -107,8 +107,7 @@ public class TwitterRetrieval {
 				InputStream is = new URL("http://search.twitter.com/search.json?rpp=150&q=%23"+hashTag).openStream();
 				//Reading the return from the Twitter API into a JsonNode
 				JsonNode rootNode = mapper.readTree(is);
-				JsonNode results = rootNode.path("results");
-				System.out.println(results.toString());
+				JsonNode results = rootNode.path("results"); 
 				itr = 1;
 				//Iterating through the records
 				while(results.has(itr))

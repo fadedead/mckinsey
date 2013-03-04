@@ -86,7 +86,7 @@ public class TwitterRetrieval {
 					System.out.println("Sorry, the hashTag contains a space. Please try again");
 					continue;
 				}
-				//Reject hashtags that contain special characters using patter matching
+				//Reject hashtags that contain special characters using pattern matching
 				mat = inputPattern.matcher(hashTag);
 				if(!mat.matches())
 				{

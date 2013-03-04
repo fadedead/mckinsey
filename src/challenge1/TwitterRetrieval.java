@@ -15,7 +15,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 /**
  * 
  * @author Rohit Mathew
- * This class take a hashtag as an input and then retrieves the 100 latest queries that
+ * 
+ * This class takes a hashtag as an input and then retrieves the 100 latest queries that
  * contain that hashtag. On the fly, it checks if there are any urls persent in the text
  * of the hashtag. If there are, they are parsed and retrieved using a regex and stored in
  * an ArrayList.
